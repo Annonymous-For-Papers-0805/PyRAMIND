@@ -1,0 +1,46 @@
+# Secrets and local config
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Caches and logs
+.cache/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.synctex.gz
+paper/*.toc
+
+# Datasets (large; fetched separately)
+data/longmemeval/
+data/locomo/
+data/hotpotqa/
+
+# Intermediate result snapshots (keep only canonical results/)
+results-*/
